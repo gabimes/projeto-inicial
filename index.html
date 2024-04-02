@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    
+    <link rel="stylesheet" href="css/style.css">
     <title>Página Básica</title>
     <style>
         li {
@@ -16,9 +16,7 @@
     <div id="container">
         <!--ESTA ÁREA VAI SER A DO CABEÇALHO-->
         <header class="cabecalho">
-        <h1
-        style="text-align: center; font-family: Tahoma, Verdana, sans-serif"
-        >
+        <h1>
         Minha Página
         </h1>
         <nav>
@@ -34,9 +32,11 @@
         <hr />
 
         <!--ESTA ÁREA VAI SER A DE CONTEÚDO-->
-        <section class="conteudo">
+        <section class="conteudo" style="font-size: 1.5em;">
         <div id="help">
-        <h2>HELP</h2>
+        <h2>
+        HELP
+        </h2>
         <p>
             Help - Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Velit ratione numquam quaerat eligendi corrupti nobis ipsam eos
@@ -172,8 +172,10 @@
         <a href="#">Mais...</a>
         </div>
         <div id="about">
-            <h2>ABOUT</h2>
-        <p>
+            <h2>
+            ABOUT
+            </h2>
+        <p style="color: green;">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
             vel odio hic ullam accusamus maxime beatae quidem ratione placeat
             unde?
@@ -181,11 +183,13 @@
         <a href="#">Mais...</a>
         </div>
         <div id="contact">
-            <h2>CONTACT</h2>
+            <h2>
+            CONTACT
+            </h2>
         <form>
             <fieldset>
             <legend>Customer Data</legend>
-            <div>
+            <div style="border: solid gray 1px; padding: 10px;">
                 <label for="idNm">Nome:</label>
                 <input
                 type="text"
@@ -194,7 +198,7 @@
                 placeholder="Digite seu nome"
                 />
             </div>
-                <div>
+                <div style="border: solid gray 1px; padding: 10px;">
                 <label for="idNm">Email:</label>
                 <input
                 type="email"
@@ -204,7 +208,7 @@
                 />
                 </div>
                 <div>
-                <button type="button">Send</button>
+                <button type="button" style="background-color: blue;">Send</button>
                 </div>
             </fieldset>
             <span><a href="#container">Voltar</a></span>
@@ -225,7 +229,8 @@
             <li><a href="https://github.com" target="_blank">Github</a></li>
             </ul>
         </nav>
-        <p>Todos os direitos reservados &copy; - Minha Página 2024</p>
+        <p style="color: green;"
+        >Todos os direitos reservados &copy; - Minha Página 2024</p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
         harum accusantium eos amet! Illo error sapiente expedita voluptatum
         nostrum, vitae labore quos aliquid ex iure quis vero. Est, sint! Dicta
