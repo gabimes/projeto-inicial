@@ -1,6 +1,10 @@
-header{background-color: blue;}
+header{background-color: rgb(64, 110, 209);}
+button{background-color: rgb(79, 110, 214); color: white;}
+p{color: rgb(2, 167, 98);}
+form{border: solid grey 1px; padding: 10px;}
+footer{border-top: solid rgb(248, 97, 97) 2px;}
 nav{font-weight: bold;}
 h1{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 h2{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-container{margin: 20px;}
-p{color: green;}
+section#conteudo{line-height: 1.5em;}
+#container{margin: 20px;}
